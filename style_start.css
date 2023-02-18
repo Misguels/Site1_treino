@@ -1,0 +1,22 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image:url(header.jpg);
+  background-size: cover;
+}
+
+
+
+.btn-primary{
+ background-color : rgb(224, 21, 21);
+ margin-top: 40px;
+ padding: 0.7rem 1rem;
+ transition: all 0.5s;
+}
+
+.btn-primary:hover {
+  background-color : rgb(42, 75, 165);
+  transform: scale(1.1);
+ }
